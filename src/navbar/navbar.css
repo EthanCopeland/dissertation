@@ -1,0 +1,53 @@
+.logo {
+    width: 300px;
+}
+
+#nav-box {
+    width: 100%;
+
+    display: inline-block;
+    text-align: center;
+
+    background-color: #E8E8E8;
+}
+
+#navbar {
+    width: 35%;
+
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+
+    color: #263645;
+    text-decoration: none;
+
+    text-align: center;
+    padding: 14px 16px;
+}
+
+#navbar li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+#navbar li a.active {
+    color: #666;
+
+}
+
+#navbar li a.active:hover {
+    color: #263645;
+}
