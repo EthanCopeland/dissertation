@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
 import Nav from "./navbar/navbar.js";
 import Homepage from './homepage/homepage.js';
+import Products from './products/products.js';
 import About from './about/about.js';
 import Contact from './contact/contact.js';
 import Header from './header/header.js';
@@ -18,6 +19,10 @@ function App() {
                     <Route exact path="/">
                         <Nav page="homepage" />
                         <Homepage />
+                    </Route>
+                    <Route exact path="/products">
+                        <Nav page="products" />
+                        <Products />
                     </Route>
                     <Route exact path="/about">
                         <Nav page="about" />
