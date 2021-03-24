@@ -23,7 +23,7 @@ function Homepage() {
 			<div id="content" className="pure-u-3-5">
 				<h1 id="light">Polar's Model</h1>
 				<p id="welcome-paragraph">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					Our business model is to provide the best experience for you as a customer, and at the end of the day to make sure you enjoy your visit and come back again to see us. we'll still be here for sure but we understand there is a lot of stuff out there you want to buy.
                 </p>
 
 				<div id ="circles">
@@ -51,7 +51,6 @@ function Homepage() {
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
 				</div>
-			<hr />
 
 		</div>
 	);
