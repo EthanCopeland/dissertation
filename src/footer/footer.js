@@ -12,8 +12,8 @@ function Footer() {
                         <ul className="footer-links">
                             <li><a href="/">Homepage</a></li>
                             <li><a href="/">Products</a></li>
-                            <li><a href="/">About</a></li>
-                            <li><a href="/">Contact</a></li>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/contact">Contact</a></li>
                             <li><a href="/">Account</a></li>
                         </ul>
                     </div>

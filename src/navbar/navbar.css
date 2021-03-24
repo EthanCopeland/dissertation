@@ -1,5 +1,5 @@
 .logo {
-    width: 300px;
+    width: 250px;
 }
 
 #nav-box {
@@ -44,7 +44,8 @@
 }
 
 #navbar li a.active {
-    color: #666;
+    color: #193E61;
+    font-weight: bold;
 
 }
 
