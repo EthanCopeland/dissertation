@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import './App.css';
+import './App.scss';
 import Nav from "./navbar/navbar.js";
 import Homepage from './homepage/homepage.js';
 import Products from './products/products.js';
 import About from './about/about.js';
 import Contact from './contact/contact.js';
-import Login from './account/login.js';
+import Signin from './account/signin.jsx';
 import Header from './header/header.js';
 import Footer from './footer/footer.js';
 import PageNotFound from './PageNotFound.js';
@@ -35,7 +35,7 @@ function App() {
                     </Route>
                     <Route exact path="/account">
                         <Nav page="account" />
-                        <Login />
+                        <Signin />
                     </Route>
                     <Route path="*">
                         <PageNotFound/>
