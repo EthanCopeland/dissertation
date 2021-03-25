@@ -11,20 +11,20 @@ function Footer() {
                         <h6>Navigation</h6>
                         <ul className="footer-links">
                             <li><a href="/">Homepage</a></li>
-                            <li><a href="/">Products</a></li>
+                            <li><a href="/products">Products</a></li>
                             <li><a href="/about">About</a></li>
                             <li><a href="/contact">Contact</a></li>
-                            <li><a href="/">Account</a></li>
+                            <li><a href="/account">Account</a></li>
                         </ul>
                     </div>
-
+                    {/* How to go to a specific section on another page  */}
                     <div className="footer-misc footer-links pure-u-1-3">
                         <h6>Products</h6>
                         <ul className="footer-links">
-                            <li><a href="/">Gift Sets</a></li>
-                            <li><a href="/">Hats</a></li>
-                            <li><a href="/">Gloves and Scarves</a></li>
-                            <li><a href="/">Masks</a></li>
+                            <li><a href="/products">Gift Sets</a></li>
+                            <li><a href="/products">Hats</a></li>
+                            <li><a href="/products">Gloves and Scarves</a></li>
+                            <li><a href="/products">Masks</a></li>
                         </ul>
                     </div>
 

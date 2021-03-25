@@ -76,21 +76,6 @@ h1 {
 
 }
 
-.parallax1{
-    background-image: url("../images/parallax2.jpg");
-    min-height: 400px;
-      /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 90%; 
-  width:100%;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-
-}
 
 #welcome-paragraph {
     margin: 4%;
@@ -119,7 +104,7 @@ a {
 }
 
 a:hover {
-    color: #0FE369;
+    color: #263645;
 }
 
 .blog-post {
@@ -157,7 +142,7 @@ a:hover {
 
 .read-more:hover {
     color: white;
-    background-color: #07662e;
+    background-color: #263645;
     
     cursor: pointer;
 }

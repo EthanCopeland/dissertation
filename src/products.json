@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Blue Winter Beanie",
+        "id": "blue_beanie",
+        "description": "Our blue wool beanie delivered right to your doorstep",
+        "price": "12.00",
+        "image": "/images/hat.jpg"
+    },
+    {
+        "title": "Blue Winter Bundle",
+        "id": "blue_bundle",
+        "description": "Our staple blue beanie, blue scarf and gloves in one matching bundle.",
+        "price": "20.00",
+        "image": "/images/gift-set.jpg"
+    },
+    {
+        "title": "Snipcart Logo Sticker Pack",
+        "id": "sticker_logo_pack",
+        "description": "Get a pack of 3 Snipcart logo stickers.",
+        "price": "4.00",
+        "image": "/images/sticker-3pack.jpg"
+    }
+]

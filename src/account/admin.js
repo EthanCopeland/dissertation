@@ -1,6 +1,5 @@
 import React from 'react';
-import Login from './Login.js';
-import Update from './admin.js';
+import Signin from './signin.jsx';
 
 class Admin extends React.Component {
 
@@ -45,13 +44,6 @@ class Admin extends React.Component {
     }
   }
 
-  updateCallback = (data) => {
-    console.log(data)
-    if (data.status !== 200) {
-      this.setState({"authenticated":false})
-      localStorage.removeItem('myToken');  
-    }
-  }
   handleLoginClick = () => {
     const url = "http://unn-w18009982.newnumyspace.co.uk/KF6012/part1/api/login"
     let myJSON = { "email": this.state.email, "password": this.state.password }
@@ -63,22 +55,6 @@ class Admin extends React.Component {
     localStorage.removeItem('myToken');
   }
 
-  handleUpdateClick = (sessionId, title) => {
-    const url = "http://unn-w18009982.newnumyspace.co.uk/KF6012/part1/api/update"
-  
-    if (localStorage.getItem('myToken')) {
-      let myToken = localStorage.getItem('myToken')
-      let myJSON = {
-        "token":myToken,
-        "sessionId": sessionId,
-        "title":title
-       }
-       this.postData(url, myJSON, this.updateCallback)
-     } else {
-       this.setState({"authenticated":false})
-     }
-   } 
-
   handlePassword = (e) => {
     this.setState({password:e.target.value})
   }
@@ -87,19 +63,17 @@ class Admin extends React.Component {
   }
 
   render() {
-    let page = <Login handleLoginClick={this.handleLoginClick} email={this.state.email} password={this.props.password}
+    let page = <Signin handleLoginClick={this.handleLoginClick} email={this.state.email} password={this.props.password}
                       handleEmail={this.handleEmail} handlePassword={this.handlePassword}/>
     if (this.state.authenticated) {
       page = <div>
-              <button onClick={this.handleLogoutClick}>Log out</button>
-              <Update handleUpdateClick={this.handleUpdateClick} admin_status={this.state.admin_status} />             
+              <button onClick={this.handleLogoutClick}>Log out</button>        
              </div>
     }
 
     return (
       <div>
         <h1>Admin</h1>
-        {page}
       </div>
     );
   }

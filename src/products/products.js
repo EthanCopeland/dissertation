@@ -1,7 +1,6 @@
 import React from 'react';
 import './products.css';
-import products from './products.json';
-import image from '../images/hat.jpg';
+import products from '../products.json';
 
 function Products() {
   return (
@@ -19,18 +18,46 @@ function Products() {
         </section>
         <div className="pure-u-3-5">
 
+
+        <div className="navContainer">
+        <p className="title">
+          <a href="/account">
+              Login / Register
+          </a>
+        </p>
+
+        <p className="description">
+          <a className="snipcart-checkout snipcart-summary" href="/">
+          <p>Cart</p>
+            <i className="far fa-shopping-cart"></i>
+            <span className="snipcart-total-price">$0.00</span>
+          </a>
+        </p>
+
+      </div>
+       
+
+
           <h1 className="about-header">Gift Collections<br /><br /></h1>
           <p>Everything you'll need tucked in one box.</p>
           <div className="gifts">
             {products.map(product => {
               return (
                 <div key={product.id}>
-                  <img src={image} alt={`Preview of ${product.title}`} />
+                  <img className="productsImages" src={product.image} alt={`Preview of ${product.title}`} />
                   <h3>{product.title}</h3>
                   <p>{product.description}</p>
-                  <p>${product.price}</p>
+                  <p>£{product.price}</p>
                   <p>
-                    <button>Add to Cart</button>
+                    <button className="snipcart-add-item"
+                      data-item-id={product.id}
+                      data-item-image={product.image}
+                      data-item-name={product.title}
+                      data-item-url="/"
+                      data-item-price={product.price}
+                    >
+                      Add to Cart
+                    </button>
                   </p>
                 </div>
               );
