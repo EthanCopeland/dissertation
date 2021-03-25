@@ -5,6 +5,7 @@ import Homepage from './homepage/homepage.js';
 import Products from './products/products.js';
 import About from './about/about.js';
 import Contact from './contact/contact.js';
+import Login from './account/login.js';
 import Header from './header/header.js';
 import Footer from './footer/footer.js';
 import PageNotFound from './PageNotFound.js';
@@ -31,6 +32,10 @@ function App() {
                     <Route exact path="/contact">
                         <Nav page="contact" />
                         <Contact />
+                    </Route>
+                    <Route exact path="/account">
+                        <Nav page="account" />
+                        <Login />
                     </Route>
                     <Route path="*">
                         <PageNotFound/>

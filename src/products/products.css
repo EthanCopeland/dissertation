@@ -54,3 +54,31 @@ color: white;
 img {
     max-width: 100%;
   }
+
+  
+  .show-cart li {
+    display: flex;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  .card-img-top {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+  }
+
+  .col {
+    float: left;
+    width: 33.33%;
+  }
+
+  img {
+    max-width: 250px;
+  }
+
+  .gifts {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
