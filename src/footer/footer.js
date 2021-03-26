@@ -21,8 +21,8 @@ function Footer() {
                     <div className="footer-misc footer-links pure-u-1-3">
                         <h6>Products</h6>
                         <ul className="footer-links">
-                            <li><a href="/products">Gift Sets</a></li>
-                            <li><a href="/products">Hats</a></li>
+                            <li><a href="/products#header">Gift Sets</a></li>
+                            <li><a href="/products#about-header-blue">Hats</a></li>
                             <li><a href="/products">Gloves and Scarves</a></li>
                             <li><a href="/products">Masks</a></li>
                         </ul>

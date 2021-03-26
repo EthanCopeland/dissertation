@@ -1,149 +1,145 @@
-.product-background{
-    background-color: #193E61;
-    min-height: 400px;
-      /* Create the parallax scrolling effect */
+.product-background {
+  background-color: #193E61;
+  min-height: 400px;
+  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 90%; 
-  width:100%;
-  display:flex;
+  height: 90%;
+  width: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .products-h1 {
-    height: 90%; 
-    width:100%;
-    margin: 0%;
-    padding: 0%;
-
-    font-size: 2.5rem;
-    font-weight: 100;
-    color: white;
+  height: 90%;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  padding-top: 10px;
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: white;
 }
 
-.products-p{
-
-color: white;
+.products-p {
+  color: white;
 }
 
-.about-header-blue{
-    font-weight: 400;
-        font-family: 'Segoe UI', sans-serif;
-        color: #80BFFC;
-        font-size: 2em;
-        width: 50%;
-        margin: 0 auto;
-        padding-top: 50px;
+#about-header-blue {
+  font-weight: 400;
+  font-family: 'Segoe UI', sans-serif;
+  color: #80BFFC;
+  font-size: 2em;
+  width: 50%;
+  margin: 0 auto;
 }
 
-.about-header-green{
-    font-weight: 400;
-        font-family: 'Segoe UI', sans-serif;
-        color: #7FC982;
-        font-size: 2em;
-        width: 50%;
-        margin: 0 auto;
-        padding-top: 50px;
+.about-header-green {
+  font-weight: 400;
+  font-family: 'Segoe UI', sans-serif;
+  color: #7FC982;
+  font-size: 2em;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.show-cart li {
+  display: flex;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  align-self: center;
 }
 
 
 img {
-    max-width: 100%;
-  }
-
-  
-  .show-cart li {
-    display: flex;
-  }
-  .card {
-    margin-bottom: 20px;
-  }
-  .card-img-top {
-    width: 200px;
-    height: 200px;
-    align-self: center;
-  }
-
-  .col {
-    float: left;
-    width: 33.33%;
-  }
-
-  img {
-    max-width: 150px;
-  }
-
-  .gifts {
-    display: flex;
-    align-items: center;
-    max-width: 40rem;
-    margin: 20px auto;
-    padding-left: 10px;
-    padding-right: 20px;
-  }
-
-  .productsImages {
-    width: 150px;
-  }
-  
-  .productImage {
-    max-width: 50%;
-  }
-
-  .add-btn {
-    background-color: #fff;
-    color: #193E61;
-    font-weight: bold;
-    border-radius: 7px;
-    padding: 6px;
-  }
-
-  @media (max-width: 600px) {
-    .nav {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-  
-  .navContainer {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-  }
-
-  
-  .title a {
-    text-decoration: none;
-    margin: 24px;
-  }
-  
-  .title {
-    margin: 24px;
-    line-height: 1.15;
-    font-size: 2rem;
+  max-width: 200px;
 }
-  
-  .title,
-  .description {
-    text-align: center;
-  }
-  
-  .description {
-    line-height: 1.5;
-    font-size: 1.5rem;
-    margin: 0;
-  }
-  
-  .description a {
-    display: flex;
+
+.productsImages {
+  width: 150px;
+  padding-top: 25px;
+}
+
+.productImage {
+  max-width: 50%;
+}
+
+.width {
+  width:300px;
+}
+
+button {
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #193E61;
+  padding: .4em .6em;
+  border: none;
+  border-radius: .4em;
+  cursor: pointer;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.desc {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column;
     align-items: center;
-    text-decoration: none;
   }
-  
-  .description svg {
-    margin-right: .4em;
-  }
+}
+
+.title a {
+  text-decoration: none;
+  margin: 24px;
+}
+
+.title {
+  margin: 24px;
+  line-height: 1.15;
+  font-size: 2rem;
+}
+
+.title, .description {
+  text-align: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.description a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.description svg {
+  margin-right: .4em;
+}

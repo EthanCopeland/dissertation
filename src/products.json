@@ -1,23 +1,23 @@
 [
     {
-        "title": "Blue Winter Beanie",
+        "title": "Starter Winter Bundle",
         "id": "blue_beanie",
-        "description": "Our blue wool beanie delivered right to your doorstep",
-        "price": "12.00",
-        "image": "/images/hat.jpg"
-    },
-    {
-        "title": "Blue Winter Bundle",
-        "id": "blue_bundle",
-        "description": "Our staple blue beanie, blue scarf and gloves in one matching bundle.",
+        "description": "Get our Starter Bundle with our basic products.",
         "price": "20.00",
-        "image": "/images/gift-set.jpg"
+        "image": "/images/starter-set.png"
     },
     {
-        "title": "Snipcart Logo Sticker Pack",
+        "title": "Standard Winter Bundle",
+        "id": "blue_bundle",
+        "description": "Get our Standard Bundle for to cover all the bases.",
+        "price": "30.00",
+        "image": "/images/sticker-3pack.jpg"
+    },
+    {
+        "title": "Mega Winter Bundle",
         "id": "sticker_logo_pack",
-        "description": "Get a pack of 3 Snipcart logo stickers.",
-        "price": "4.00",
+        "description": "Stand out from the rest with our Mega Bundle this winter.",
+        "price": "40.00",
         "image": "/images/sticker-3pack.jpg"
     }
 ]

@@ -7,7 +7,7 @@ function About() {
             <section className="About">
                 <div className="pure-u-3-5">
 
-                    <h1 className="about-header">We made our business to be different from every other out there.<br /><br /></h1>
+                    <h1 className="header">We made our business to be different from every other out there.<br /><br /></h1>
                     <hr id="navy" />
                 </div>
 
