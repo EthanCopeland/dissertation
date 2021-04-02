@@ -21,7 +21,7 @@ function Homepage() {
 			</section>
 
 			<div id="content" className="pure-u-3-5">
-				<h1 id="light">Polar's Model</h1>
+				<h1 id="light">Our Model</h1>
 				<p id="welcome-paragraph">
 					Our business model is to provide the best experience for you as a customer, and at the end of the day to make sure you enjoy your visit and come back again to see us. we'll still be here for sure but we understand there is a lot of stuff out there you want to buy.
                 </p>

@@ -10,35 +10,36 @@
 
 h1 {
     font-family: 'Segoe UI', sans-serif;
-
-    color: #263645;
     font-size: 2em;
+    font-weight: 400;
+    color: #263645;
 }
 
-#this{
-    width:80%;
+#this {
+    width: 80%;
 }
 
 #light {
     font-family: 'Segoe UI', sans-serif;
-
-    color: #80BFFC;
     font-size: 2em;
     font-weight: 350;
+    color: #80BFFC;
 }
 
 #ellipse-1 {
-    width:150px;
+    width: 150px;
     float: left;
-    margin:0 0 0 130px;
+    margin: 0 0 0 130px;
 }
+
 #ellipse-2 {
-    width:150px;
+    width: 150px;
 }
+
 #ellipse-3 {
-    width:150px;
+    width: 150px;
     float: right;
-    margin:0 100px 0 0;
+    margin: 0 100px 0 0;
 }
 
 .column {
@@ -47,49 +48,45 @@ h1 {
     display: inherit;
     margin-left: 3.33%;
     padding-bottom: 50px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
+}
+
+/* Clear floats after the columns */
+
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
 #circles {
     padding-bottom: 50px;
 }
 
-.parallax{
+.parallax {
     background-image: url("../images/parallax.jpg");
     min-height: 400px;
-      /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 90%; 
-  width:100%;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
 
 #welcome-paragraph {
     margin: 4%;
 }
 
-
 #parallax-h1 {
-    height: 90%; 
-    width:100%;
-    display:flex;
+    height: 90%;
+    width: 100%;
+    display: flex;
     align-items: center;
     justify-content: center;
-
-
     font-size: 2.5rem;
     font-weight: 100;
     color: white;
@@ -110,20 +107,17 @@ a:hover {
 .blog-post {
     padding: 4%;
     text-align: left;
-
     display: flex;
 }
 
 .blog-post-person {
     width: 64px;
     height: 64px;
-
     display: inline;
 }
 
 .blog-post-content {
     display: inline;
-
     margin: -2% 0 0 1%;
 }
 
@@ -134,15 +128,12 @@ a:hover {
 .read-more {
     color: white;
     background-color: #263645;
-
     padding: 0.7%;
-
     border-radius: 2px;
 }
 
 .read-more:hover {
     color: white;
     background-color: #263645;
-    
     cursor: pointer;
 }

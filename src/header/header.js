@@ -5,7 +5,7 @@ import './header.css';
 function Navbar() {
 	return (
 		<header>
-            <img src={logo} className="logo" alt="logo" />
+            <a href="/"><img src={logo} className="logo" alt="logo"/></a>
 		</header>
 	)
 }

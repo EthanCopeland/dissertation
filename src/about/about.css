@@ -1,44 +1,53 @@
 #navy {
-    background-color: #263645;
-    height: 1px;
-    border: none;
     margin-top: 50px;
     margin-bottom: 20px;
+
+    background-color: #263645;
+    
+    height: 2px;
+    border: none;
 }
 
-#blue{
+#blue {
     margin-top: 50px;
+
     background-color: #80BFFC;
-    height: 1px;
+
+    height: 2px;
     border: none;
 }
 
-#green{
+#green {
     margin-top: 50px;
+
     background-color: #7FC982;
-    height: 1px;
+
+    height: 2px;
     border: none;
 }
 
-.about-header{
+.about-header {
     font-weight: 400;
-        font-family: 'Segoe UI', sans-serif;
-        color: #263645;
-        font-size: 2em;
-        width: 50%;
-        margin: 0 auto;
-        /* padding-top: 50px; */
-        justify-content: center;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 2em;
+
+    color: #263645;
+
+    width: 50%;
+    margin: 0 auto;
+
+    justify-content: center;
 }
 
-#header{
+#header {
     font-weight: 400;
-        font-family: 'Segoe UI', sans-serif;
-        color: #263645;
-        font-size: 2em;
-        width: 50%;
-        margin: 0 auto;
-        padding-top: 50px;
-        justify-content: center;
-}
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 2em;
 
+    color: #263645;
+
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 50px;
+    justify-content: center;
+}

@@ -22,18 +22,17 @@ function Footer() {
                         <h6>Products</h6>
                         <ul className="footer-links">
                             <li><a href="/products#header">Gift Sets</a></li>
-                            <li><a href="/products#about-header-blue">Hats</a></li>
-                            <li><a href="/products">Gloves and Scarves</a></li>
-                            <li><a href="/products">Masks</a></li>
+                            <li><a href="/products#about-header-blue">Gloves / Scarves</a></li>
+                            <li><a href="/products#about-header-green">Hats / Masks</a></li>
                         </ul>
                     </div>
 
                     <div className="footer-misc footer-links pure-u-1-3">
                         <h6>About Us</h6>
                         <ul className="footer-links">
-                            <li><a href="/">Our Story</a></li>
-                            <li><a href="/">Our Aims</a></li>
-                            <li><a href="/">Business Ethics</a></li>
+                            <li><a href="/about">Our Story</a></li>
+                            <li><a href="/about">Our Aims</a></li>
+                            <li><a href="/#light">Our Model</a></li>
                             <li><a href="/"> Accessbility</a></li>
                             <li><a href="/"> Usability</a></li>
                         </ul>
