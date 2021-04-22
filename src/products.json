@@ -1,23 +1,30 @@
 [
     {
         "title": "Starter Winter Bundle",
-        "id": "blue_beanie",
+        "id": "starter_bundle",
         "description": "Get our Starter Bundle with our basic products.",
         "price": "20.00",
         "image": "/images/starter-set.png"
     },
     {
         "title": "Standard Winter Bundle",
-        "id": "blue_bundle",
+        "id": "standard_bundle",
         "description": "Get our Standard Bundle for to cover all the bases.",
         "price": "30.00",
-        "image": "/images/sticker-3pack.jpg"
+        "image": "/images/starter-set.png"
     },
     {
         "title": "Mega Winter Bundle",
-        "id": "sticker_logo_pack",
-        "description": "Stand out from the rest with our Mega Bundle this winter.",
+        "id": "mega_bundle",
+        "description": "Stand out from the rest with our Mega Bundle.",
         "price": "40.00",
-        "image": "/images/sticker-3pack.jpg"
+        "image": "/images/starter-set.png"
+    },
+    {
+        "title": "Family Winter Bundle",
+        "id": "family_bundle",
+        "description": "Here is our Family bundle for everyone this winter.",
+        "price": "60.00",
+        "image": "/images/starter-set.png"
     }
 ]

@@ -1,5 +1,6 @@
 {
-  "name": "dissertation",
+  "name": "accessible",
+  "homepage": "http://unn-w18009982.newnumyspace.co.uk/dissertation/enhanced/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +14,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-tap-event-plugin": "^3.0.3",
+    "react-toggle-dark-mode": "^1.0.4",
     "web-vitals": "^1.1.1"
   },
   "scripts": {

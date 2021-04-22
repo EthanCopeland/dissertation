@@ -61,3 +61,107 @@
 .login-header {
   padding-bottom: 50px;
 }
+
+.logo {
+  width: 350px;
+}
+
+#nav-box {
+  width: 100%;
+
+  display: inline-block;
+  text-align: center;
+
+  background-color: #E8E8E8;
+}
+
+#navbar {
+  width: 40%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar li a {
+  display: block;
+
+  color: #263645;
+  text-decoration: none;
+
+  text-align: center;
+  padding: 14px 16px;
+}
+
+#navbar li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+#navbar li a.active {
+  color: #193E61;
+  font-weight: bold;
+}
+
+#navbar li a.active:hover {
+  color: #263645;
+}
+
+.NarrowNav {
+	display: none;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+@media screen and (max-width: 600px) {
+  #navbar {
+    width: 28%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+	nav ul {
+		list-style: none;
+		text-align: center;
+	}
+	nav ul li {
+		display: block;
+	}
+  #navbar li a {
+    display: block;
+    color: #263645;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 1px;
+  }
+	#nav-box {
+		display: none;
+	}
+	.NarrowNav {
+		display: block;
+	}
+}
